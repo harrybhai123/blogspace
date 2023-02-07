@@ -1,0 +1,63 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 50%;
+}
+
+.nav{
+    padding: .2em 1em;
+    margin: 0;
+    background-color: #808080;
+}
+
+
+h1{
+    text-transform: uppercase;
+    color: #252525;
+}
+h3{
+    text-transform: capitalize;
+    color: #252525;
+}
+
+p{
+    color: #808080;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+input,textarea{
+    border: #252525 2px ridge;
+}
+
+label{
+    margin-bottom: 0;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+button{
+    margin: 1.5em auto;
+    background: #252525;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1em 2em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #5c0707;
+    color: #ffffff;
+}
